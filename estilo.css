@@ -1,0 +1,139 @@
+body{
+    font-family: Tahoma, arial, sans-serif;
+    background: rgb(233, 231, 231);
+}
+
+main{
+    margin: 100px auto 0;
+    width: 80%;
+}
+
+.top {
+    background-image: url(imagens/topo.jpg);
+    height: 700px;
+    background-position: left center;
+    background-size: cover;
+}
+
+.logo {
+    float: left;
+    margin: 15px 0 0 200px;
+}
+
+.top ul { /*esse eu fiz a ul ficar do lado esquerdo e com margem*/
+    background: rgb(2, 35, 48);
+    height: 50px;
+    text-align: right;
+    margin: 20px 0 0 0;
+    padding: 15px 40px 0 0;
+}
+
+.top ul li{ /*esse vai fazer com que a lista fique horizontal*/
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;  
+}
+
+.top ul li a{
+    color: #425564;
+    text-decoration: none; /*para tirar o sublinhado da letra*/
+    font-family: Tahoma, arial, sans-serif;
+    letter-spacing: 2px; /*dar um espaço de uma letra e outra*/
+    transition: color 0.3s linear; /* conectado com o hover para mostrar como vai ser a transição do efeito de passar o mouse por cima do botao e mudar a cor*/
+}
+
+.top nav a:hover{ /*efeito de mudar de cor quando passar o mouse por cima do botão*/
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.padding-60{
+    padding: 60px 100px;
+}
+#description {
+    font-family: Tahoma, arial, sans-serif;
+}
+
+#description h1{
+    font-size: 2em;
+}
+
+#description p{
+    line-height: 40px;
+    color: #555;
+}
+
+#models {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#models img {
+    width: 300px;
+}
+
+.gray-text {
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.model h4{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.model p{
+    margin-top: 0;
+}
+
+#about{
+    background-color: #003d52;
+    padding: 70px;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat; /*para não repetir a imagem*/
+    background-position: right bottom; /*para a imagem estar posicionada pela direita e fundo*/
+    margin-top: 50px; /*isso é para descolar a imagem de cima*/
+}
+
+#about h1{
+    color: white;
+    font-size: 3em;
+    padding: 100px 250px 0 100px;
+    text-transform: uppercase;
+    font-family: Tahoma, arial, sans-serif;
+}
+
+#about p{
+    color: white;
+    font-size: 1em;
+    padding: 0 400px 0 100px;
+    letter-spacing: 2px;
+    font-family: Tahoma, arial, sans-serif;
+}
+
+#contact h1{
+    color: #143f52;
+    text-transform: uppercase;
+    margin: 50px 0 50px 0;
+    font-weight: bold; /*a letra fica um pouco arredondada*/
+}
+
+#maps iframe{
+    width: 100%;
+    height: 500px;
+}
+
+footer{
+    background-color: #0b171f;
+    padding: 15px;
+    margin-top: 50px;
+    color: #6f8597;
+    letter-spacing: 6px;
+}
